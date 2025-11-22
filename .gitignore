@@ -1,0 +1,32 @@
+# Ignore virtual environments
+env/
+.venv/
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore data files
+/data/
+*.csv
+
+# Ignore reports
+/reports/
+*.txt
+*.json
+
+# Ignore visualizations
+/visualizations/
+*.png
+
+# OS / Editor specific files
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# VSCode settings (optional)
+.vscode/
